@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YmW-1C-JJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="ISQ-7O-F0g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbb-Lz-HyH">
+                                <rect key="frame" x="156" y="518.5" width="62" height="30"/>
+                                <state key="normal" title="系统相册"/>
+                                <connections>
+                                    <action selector="clickPhotoLibiary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nux-Po-4HO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmo-PR-c2X">
+                                <rect key="frame" x="156" y="588" width="62" height="30"/>
+                                <state key="normal" title="系统相机"/>
+                                <connections>
+                                    <action selector="clickCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ujk-xK-sJo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dRm-xC-eVr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dRm-xC-eVr" secondAttribute="height" multiplier="1:1" id="zHq-aS-0eQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Dmo-PR-c2X" firstAttribute="top" secondItem="Lbb-Lz-HyH" secondAttribute="bottom" constant="39.5" id="0NZ-ZC-zhv"/>
+                            <constraint firstItem="Lbb-Lz-HyH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="200" id="Aqz-lW-At0"/>
+                            <constraint firstItem="Dmo-PR-c2X" firstAttribute="centerX" secondItem="Lbb-Lz-HyH" secondAttribute="centerX" id="La2-oQ-HfY"/>
+                            <constraint firstItem="Lbb-Lz-HyH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PmR-Oi-IMR"/>
+                            <constraint firstItem="dRm-xC-eVr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WcS-zf-bEa"/>
+                            <constraint firstAttribute="trailing" secondItem="dRm-xC-eVr" secondAttribute="trailing" id="l1d-Hm-SYY"/>
+                            <constraint firstItem="dRm-xC-eVr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wUu-dH-BdD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="dRm-xC-eVr" id="MMW-Aa-efQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+</document>
