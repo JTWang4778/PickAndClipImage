@@ -4,8 +4,8 @@ Pod::Spec.new do |spec|
 
   
   spec.name         = "ImagePickAndClip"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of ImagePickAndClip."
+  spec.version      = "0.0.2"
+  spec.summary      = "select and clip UIImage on iOS"
 
   spec.homepage     = "https://github.com/JTWang4778/PickAndClipImage"
   
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
 
   
-  spec.source_files  = "ImagePickAndClip", "ImagePickAndClip/**/*.{h,m}"
+  spec.source_files  = "ImagePickAndClip/ImagePickAndClip/HTClipImageController.h", "ImagePickAndClip/ImagePickAndClip/HTClipImageController.m"
 
  
   spec.requires_arc = true
