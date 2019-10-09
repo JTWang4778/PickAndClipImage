@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B26EE65AF39F2B52CC865E9BA5101C /* HTClipImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4689A4972C5D1DCB27274D40EED474D6 /* HTClipImageController.m */; };
+		2038C24E5D81009832E666CFB45FA2DE /* Pods-ImagePickAndClipTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F44C14A4E1A9E083BA2DDBD22DC9EC7A /* Pods-ImagePickAndClipTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3071038AC5D026B185512F3EBB677BA2 /* Pods-ImagePickAndClipUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF787D1DA6847EB458CDA24BF54E67C /* Pods-ImagePickAndClipUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EBED579488F8509B923388E7EA4BB13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6024A6E3AF26299699DFA8F407C11605 /* Pods-ImagePickAndClip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17665AC04F0920BAEE582E21E09ACD13 /* Pods-ImagePickAndClip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		737C28E8860D0728E8BD08FC9F7BF8E8 /* AddRemoteTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D6BD8A23C24AF372F6F026BFC1453E /* AddRemoteTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87808ADB8A53F96EBFB7DDEADF13DCA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		98241EE887836398341FDEEA66EABC5B /* Pods-ImagePickAndClipUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5102F72DA1ED9F078943E559ED579 /* Pods-ImagePickAndClipUITests-dummy.m */; };
+		C1A5F796C8456422ED275C9584413C39 /* HTClipImageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E48620D79B0466A1EB8D9B66041161 /* HTClipImageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3FB1D828BB329727C5A130A30966862 /* AddRemoteTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8661508B0B6C129EA1D8248F9EC705 /* AddRemoteTest-dummy.m */; };
+		EB7935742431FBFE8B763B237B25CAB5 /* Pods-ImagePickAndClip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 674F84B9124BC251334E9F17C16DDD69 /* Pods-ImagePickAndClip-dummy.m */; };
+		ECA7C96BD792EDDBFF9843641C34E477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F7F1E60F3BE09EAF7AC5D229E0C70083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F93C968D72470CF8D041F75CE77E7A96 /* Pods-ImagePickAndClipTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 938A18C9C354D429FF8CB166269662D1 /* Pods-ImagePickAndClipTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		798693F49D444A9749671F9CF01224B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78766D9009D32F91DF0B11B40A6416B6;
+			remoteInfo = AddRemoteTest;
+		};
+		A7C6F1D4827707452FA2FAC1CA90640B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 766219F3AAC51F9EF3A2EC26F884C6F1;
+			remoteInfo = "Pods-ImagePickAndClip";
+		};
+		B1E82B9B3B38B0DA7EAAF79C0ABA9AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 766219F3AAC51F9EF3A2EC26F884C6F1;
+			remoteInfo = "Pods-ImagePickAndClip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE886DC054F825BEE7108F3C70A3C9A /* Pods-ImagePickAndClipTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickAndClipTests-Info.plist"; sourceTree = "<group>"; };
+		10F5102F72DA1ED9F078943E559ED579 /* Pods-ImagePickAndClipUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickAndClipUITests-dummy.m"; sourceTree = "<group>"; };
+		112FBDE7337CBC7D9462B6DB6CA4DC82 /* Pods-ImagePickAndClipUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickAndClipUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		17665AC04F0920BAEE582E21E09ACD13 /* Pods-ImagePickAndClip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickAndClip-umbrella.h"; sourceTree = "<group>"; };
+		1807A24202FD1088828D09F8FEF33886 /* AddRemoteTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AddRemoteTest-prefix.pch"; sourceTree = "<group>"; };
+		2F45FD347BE05887C3839F42B144F816 /* AddRemoteTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AddRemoteTest-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		342CB1170B30E8A0F97CE8D8FA0D8054 /* Pods-ImagePickAndClipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickAndClipUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B33D5148338855FC49AED075B6A142B /* Pods-ImagePickAndClipUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickAndClipUITests-Info.plist"; sourceTree = "<group>"; };
+		429C737FF692464DBB39B8967E59F053 /* Pods-ImagePickAndClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickAndClip.debug.xcconfig"; sourceTree = "<group>"; };
+		4689A4972C5D1DCB27274D40EED474D6 /* HTClipImageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTClipImageController.m; path = AddRemoteTest/Class/HTClipImageController.m; sourceTree = "<group>"; };
+		48FE2D41F35EA47170FF827F31926AD2 /* Pods-ImagePickAndClip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickAndClip-acknowledgements.markdown"; sourceTree = "<group>"; };
+		491917DDAB34D45F3C9A0B56B2785348 /* Pods_ImagePickAndClipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePickAndClipTests.framework; path = "Pods-ImagePickAndClipTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52322890BB738445905BD8507C61F802 /* AddRemoteTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AddRemoteTest.modulemap; sourceTree = "<group>"; };
+		570633CC266B3F209363FFDCC3EC3D24 /* Pods-ImagePickAndClipTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickAndClipTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		587089609AA50BBCAE170F16E96FCC88 /* Pods-ImagePickAndClipUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickAndClipUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58A3DE2F8E4F16F43A983D428D1F8F72 /* AddRemoteTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AddRemoteTest.framework; path = AddRemoteTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64846B88CD73E0262905635060BB6CDA /* Pods-ImagePickAndClipUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickAndClipUITests.modulemap"; sourceTree = "<group>"; };
+		674F84B9124BC251334E9F17C16DDD69 /* Pods-ImagePickAndClip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickAndClip-dummy.m"; sourceTree = "<group>"; };
+		687ABC2164060EBDF56074F98FF2F9A0 /* Pods-ImagePickAndClipTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickAndClipTests.modulemap"; sourceTree = "<group>"; };
+		68D6BD8A23C24AF372F6F026BFC1453E /* AddRemoteTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AddRemoteTest-umbrella.h"; sourceTree = "<group>"; };
+		78D2F02E0EDF760FAB444E3F6E65CC09 /* Pods-ImagePickAndClip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickAndClip.modulemap"; sourceTree = "<group>"; };
+		7C09C1877150BBCD9E20EC11BB0432CF /* Pods-ImagePickAndClipTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickAndClipTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		862E3A93EEC5F4A66A9EF760B0D59505 /* AddRemoteTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AddRemoteTest.xcconfig; sourceTree = "<group>"; };
+		89B39296F67C9215097584985DAF4DB9 /* Pods-ImagePickAndClip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickAndClip-Info.plist"; sourceTree = "<group>"; };
+		8AF787D1DA6847EB458CDA24BF54E67C /* Pods-ImagePickAndClipUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickAndClipUITests-umbrella.h"; sourceTree = "<group>"; };
+		8CAC2FE356713F5623941EF526F40FF3 /* Pods-ImagePickAndClip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickAndClip-frameworks.sh"; sourceTree = "<group>"; };
+		938A18C9C354D429FF8CB166269662D1 /* Pods-ImagePickAndClipTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickAndClipTests-dummy.m"; sourceTree = "<group>"; };
+		94E48620D79B0466A1EB8D9B66041161 /* HTClipImageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTClipImageController.h; path = AddRemoteTest/Class/HTClipImageController.h; sourceTree = "<group>"; };
+		9B42A350FCF2EF0F97C1C90DF7EE4A3F /* Pods-ImagePickAndClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickAndClip.release.xcconfig"; sourceTree = "<group>"; };
+		9C8661508B0B6C129EA1D8248F9EC705 /* AddRemoteTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AddRemoteTest-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A88F45A5D88F0BC8067B05FE3CB05A5C /* Pods-ImagePickAndClipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickAndClipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5E085F69077975BA38815AF000C264A /* Pods-ImagePickAndClipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickAndClipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDE97586FB02F0508032D0B40909BF94 /* Pods_ImagePickAndClip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePickAndClip.framework; path = "Pods-ImagePickAndClip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7D4D749AFE711369725D661C7D7B53 /* Pods-ImagePickAndClipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickAndClipTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1DAA0182FCCBF6090C0F6A3B7D6B776 /* Pods_ImagePickAndClipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePickAndClipUITests.framework; path = "Pods-ImagePickAndClipUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44C14A4E1A9E083BA2DDBD22DC9EC7A /* Pods-ImagePickAndClipTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickAndClipTests-umbrella.h"; sourceTree = "<group>"; };
+		FD8CF0A1AF37BDC9E9EB59450EE08B2C /* Pods-ImagePickAndClip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickAndClip-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69F99E890B95E24A13886E8CE98D95AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87808ADB8A53F96EBFB7DDEADF13DCA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA846BD28A2A5141E6CD40C64B41D2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F1E60F3BE09EAF7AC5D229E0C70083 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BFC4A60CE59ADF6BF21B7A366F3A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBED579488F8509B923388E7EA4BB13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD45842F538BC1B8FC574CF8AAC6D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA7C96BD792EDDBFF9843641C34E477 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58302F391CED0E857E47C3EAC7EB9CDE /* Pods-ImagePickAndClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64846B88CD73E0262905635060BB6CDA /* Pods-ImagePickAndClipUITests.modulemap */,
+				587089609AA50BBCAE170F16E96FCC88 /* Pods-ImagePickAndClipUITests-acknowledgements.markdown */,
+				112FBDE7337CBC7D9462B6DB6CA4DC82 /* Pods-ImagePickAndClipUITests-acknowledgements.plist */,
+				10F5102F72DA1ED9F078943E559ED579 /* Pods-ImagePickAndClipUITests-dummy.m */,
+				3B33D5148338855FC49AED075B6A142B /* Pods-ImagePickAndClipUITests-Info.plist */,
+				8AF787D1DA6847EB458CDA24BF54E67C /* Pods-ImagePickAndClipUITests-umbrella.h */,
+				342CB1170B30E8A0F97CE8D8FA0D8054 /* Pods-ImagePickAndClipUITests.debug.xcconfig */,
+				D5E085F69077975BA38815AF000C264A /* Pods-ImagePickAndClipUITests.release.xcconfig */,
+			);
+			name = "Pods-ImagePickAndClipUITests";
+			path = "Target Support Files/Pods-ImagePickAndClipUITests";
+			sourceTree = "<group>";
+		};
+		AA24077923B4EE22498E03E77753F753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58A3DE2F8E4F16F43A983D428D1F8F72 /* AddRemoteTest.framework */,
+				DDE97586FB02F0508032D0B40909BF94 /* Pods_ImagePickAndClip.framework */,
+				491917DDAB34D45F3C9A0B56B2785348 /* Pods_ImagePickAndClipTests.framework */,
+				F1DAA0182FCCBF6090C0F6A3B7D6B776 /* Pods_ImagePickAndClipUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC1E0DF62898661BBA36EA8A5B27E95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52322890BB738445905BD8507C61F802 /* AddRemoteTest.modulemap */,
+				862E3A93EEC5F4A66A9EF760B0D59505 /* AddRemoteTest.xcconfig */,
+				9C8661508B0B6C129EA1D8248F9EC705 /* AddRemoteTest-dummy.m */,
+				2F45FD347BE05887C3839F42B144F816 /* AddRemoteTest-Info.plist */,
+				1807A24202FD1088828D09F8FEF33886 /* AddRemoteTest-prefix.pch */,
+				68D6BD8A23C24AF372F6F026BFC1453E /* AddRemoteTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AddRemoteTest";
+			sourceTree = "<group>";
+		};
+		B76AEFE7B7193605663FAF4443C2E6C6 /* Pods-ImagePickAndClip */ = {
+			isa = PBXGroup;
+			children = (
+				78D2F02E0EDF760FAB444E3F6E65CC09 /* Pods-ImagePickAndClip.modulemap */,
+				48FE2D41F35EA47170FF827F31926AD2 /* Pods-ImagePickAndClip-acknowledgements.markdown */,
+				FD8CF0A1AF37BDC9E9EB59450EE08B2C /* Pods-ImagePickAndClip-acknowledgements.plist */,
+				674F84B9124BC251334E9F17C16DDD69 /* Pods-ImagePickAndClip-dummy.m */,
+				8CAC2FE356713F5623941EF526F40FF3 /* Pods-ImagePickAndClip-frameworks.sh */,
+				89B39296F67C9215097584985DAF4DB9 /* Pods-ImagePickAndClip-Info.plist */,
+				17665AC04F0920BAEE582E21E09ACD13 /* Pods-ImagePickAndClip-umbrella.h */,
+				429C737FF692464DBB39B8967E59F053 /* Pods-ImagePickAndClip.debug.xcconfig */,
+				9B42A350FCF2EF0F97C1C90DF7EE4A3F /* Pods-ImagePickAndClip.release.xcconfig */,
+			);
+			name = "Pods-ImagePickAndClip";
+			path = "Target Support Files/Pods-ImagePickAndClip";
+			sourceTree = "<group>";
+		};
+		BD5E127E2E1CE0EA956C1431331A4103 /* Pods-ImagePickAndClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				687ABC2164060EBDF56074F98FF2F9A0 /* Pods-ImagePickAndClipTests.modulemap */,
+				570633CC266B3F209363FFDCC3EC3D24 /* Pods-ImagePickAndClipTests-acknowledgements.markdown */,
+				7C09C1877150BBCD9E20EC11BB0432CF /* Pods-ImagePickAndClipTests-acknowledgements.plist */,
+				938A18C9C354D429FF8CB166269662D1 /* Pods-ImagePickAndClipTests-dummy.m */,
+				0EE886DC054F825BEE7108F3C70A3C9A /* Pods-ImagePickAndClipTests-Info.plist */,
+				F44C14A4E1A9E083BA2DDBD22DC9EC7A /* Pods-ImagePickAndClipTests-umbrella.h */,
+				A88F45A5D88F0BC8067B05FE3CB05A5C /* Pods-ImagePickAndClipTests.debug.xcconfig */,
+				EB7D4D749AFE711369725D661C7D7B53 /* Pods-ImagePickAndClipTests.release.xcconfig */,
+			);
+			name = "Pods-ImagePickAndClipTests";
+			path = "Target Support Files/Pods-ImagePickAndClipTests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FE0A9FA101B661E47086AC5B3CE9824B /* Pods */,
+				AA24077923B4EE22498E03E77753F753 /* Products */,
+				FC6D2974399A8A7EC3AC06140F6C0C15 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC6D2974399A8A7EC3AC06140F6C0C15 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B76AEFE7B7193605663FAF4443C2E6C6 /* Pods-ImagePickAndClip */,
+				BD5E127E2E1CE0EA956C1431331A4103 /* Pods-ImagePickAndClipTests */,
+				58302F391CED0E857E47C3EAC7EB9CDE /* Pods-ImagePickAndClipUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD7072BBBF7D24D8E026100255EE0618 /* AddRemoteTest */ = {
+			isa = PBXGroup;
+			children = (
+				94E48620D79B0466A1EB8D9B66041161 /* HTClipImageController.h */,
+				4689A4972C5D1DCB27274D40EED474D6 /* HTClipImageController.m */,
+				AFC1E0DF62898661BBA36EA8A5B27E95 /* Support Files */,
+			);
+			name = AddRemoteTest;
+			path = AddRemoteTest;
+			sourceTree = "<group>";
+		};
+		FE0A9FA101B661E47086AC5B3CE9824B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD7072BBBF7D24D8E026100255EE0618 /* AddRemoteTest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D7647744AC3233CE5A2F3E2F9F55CF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737C28E8860D0728E8BD08FC9F7BF8E8 /* AddRemoteTest-umbrella.h in Headers */,
+				C1A5F796C8456422ED275C9584413C39 /* HTClipImageController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFB5930C7FBA77789431B3FE10BCCD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3071038AC5D026B185512F3EBB677BA2 /* Pods-ImagePickAndClipUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A3F58300983D24A489CBD691533CD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2038C24E5D81009832E666CFB45FA2DE /* Pods-ImagePickAndClipTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA452EE91624105D94615E05D4B7DD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6024A6E3AF26299699DFA8F407C11605 /* Pods-ImagePickAndClip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		766219F3AAC51F9EF3A2EC26F884C6F1 /* Pods-ImagePickAndClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8ABDFB211FBA0130181F0039014573 /* Build configuration list for PBXNativeTarget "Pods-ImagePickAndClip" */;
+			buildPhases = (
+				EDA452EE91624105D94615E05D4B7DD8 /* Headers */,
+				86968F4D1C6FF78E8CB78C8BFE62E02F /* Sources */,
+				BA846BD28A2A5141E6CD40C64B41D2BC /* Frameworks */,
+				37D26012523401C2AFE188363ECC4E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637AFB083FF0680D76C3EA6BF5AD3B68 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImagePickAndClip";
+			productName = "Pods-ImagePickAndClip";
+			productReference = DDE97586FB02F0508032D0B40909BF94 /* Pods_ImagePickAndClip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78766D9009D32F91DF0B11B40A6416B6 /* AddRemoteTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01024EDDE44DB95BD5BCF45ED9F1C6F1 /* Build configuration list for PBXNativeTarget "AddRemoteTest" */;
+			buildPhases = (
+				6D7647744AC3233CE5A2F3E2F9F55CF2 /* Headers */,
+				AF79BADB75D9A2CE35BB0FE248D4D0ED /* Sources */,
+				DBD45842F538BC1B8FC574CF8AAC6D1D /* Frameworks */,
+				03F45F8D7BE70280EA26BE63DDF4E8F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddRemoteTest;
+			productName = AddRemoteTest;
+			productReference = 58A3DE2F8E4F16F43A983D428D1F8F72 /* AddRemoteTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8068E79BC5FD2AF8F0B0088E45F6550C /* Pods-ImagePickAndClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487B09F86C08FCE7B93F3B0B81F2C153 /* Build configuration list for PBXNativeTarget "Pods-ImagePickAndClipTests" */;
+			buildPhases = (
+				C6A3F58300983D24A489CBD691533CD4 /* Headers */,
+				8963FE11DA9B2C27F028C2507DC4484C /* Sources */,
+				C6BFC4A60CE59ADF6BF21B7A366F3A7C /* Frameworks */,
+				9338A7B02B91E587AA2A9FD34CD2E246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				474B977F731FC296AC88CE778F49D878 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImagePickAndClipTests";
+			productName = "Pods-ImagePickAndClipTests";
+			productReference = 491917DDAB34D45F3C9A0B56B2785348 /* Pods_ImagePickAndClipTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA4F83C6EC4FA89326E778F5E1FF4C49 /* Pods-ImagePickAndClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF29389EF8D56C8D00818444236E30C0 /* Build configuration list for PBXNativeTarget "Pods-ImagePickAndClipUITests" */;
+			buildPhases = (
+				8EFB5930C7FBA77789431B3FE10BCCD9 /* Headers */,
+				1A494E4F08669F36AB792DE72FC2E987 /* Sources */,
+				69F99E890B95E24A13886E8CE98D95AD /* Frameworks */,
+				E2645BBEF4896BDEF14CC3465F451FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23EEE73A8A90497569BA05BE6BFE8E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImagePickAndClipUITests";
+			productName = "Pods-ImagePickAndClipUITests";
+			productReference = F1DAA0182FCCBF6090C0F6A3B7D6B776 /* Pods_ImagePickAndClipUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AA24077923B4EE22498E03E77753F753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78766D9009D32F91DF0B11B40A6416B6 /* AddRemoteTest */,
+				766219F3AAC51F9EF3A2EC26F884C6F1 /* Pods-ImagePickAndClip */,
+				8068E79BC5FD2AF8F0B0088E45F6550C /* Pods-ImagePickAndClipTests */,
+				BA4F83C6EC4FA89326E778F5E1FF4C49 /* Pods-ImagePickAndClipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F45F8D7BE70280EA26BE63DDF4E8F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D26012523401C2AFE188363ECC4E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9338A7B02B91E587AA2A9FD34CD2E246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2645BBEF4896BDEF14CC3465F451FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A494E4F08669F36AB792DE72FC2E987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98241EE887836398341FDEEA66EABC5B /* Pods-ImagePickAndClipUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86968F4D1C6FF78E8CB78C8BFE62E02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7935742431FBFE8B763B237B25CAB5 /* Pods-ImagePickAndClip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8963FE11DA9B2C27F028C2507DC4484C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93C968D72470CF8D041F75CE77E7A96 /* Pods-ImagePickAndClipTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF79BADB75D9A2CE35BB0FE248D4D0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FB1D828BB329727C5A130A30966862 /* AddRemoteTest-dummy.m in Sources */,
+				12B26EE65AF39F2B52CC865E9BA5101C /* HTClipImageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		474B977F731FC296AC88CE778F49D878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ImagePickAndClip";
+			target = 766219F3AAC51F9EF3A2EC26F884C6F1 /* Pods-ImagePickAndClip */;
+			targetProxy = A7C6F1D4827707452FA2FAC1CA90640B /* PBXContainerItemProxy */;
+		};
+		637AFB083FF0680D76C3EA6BF5AD3B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AddRemoteTest;
+			target = 78766D9009D32F91DF0B11B40A6416B6 /* AddRemoteTest */;
+			targetProxy = 798693F49D444A9749671F9CF01224B0 /* PBXContainerItemProxy */;
+		};
+		D23EEE73A8A90497569BA05BE6BFE8E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ImagePickAndClip";
+			target = 766219F3AAC51F9EF3A2EC26F884C6F1 /* Pods-ImagePickAndClip */;
+			targetProxy = B1E82B9B3B38B0DA7EAAF79C0ABA9AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00EC5F60B08274CA8F47AEDA1D342E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1573C94543E6FDBEBE438C4A5860A678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342CB1170B30E8A0F97CE8D8FA0D8054 /* Pods-ImagePickAndClipUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickAndClipUITests/Pods-ImagePickAndClipUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickAndClipUITests/Pods-ImagePickAndClipUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15CF86EF2153E68DB1E878CA7526CD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429C737FF692464DBB39B8967E59F053 /* Pods-ImagePickAndClip.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickAndClip/Pods-ImagePickAndClip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickAndClip/Pods-ImagePickAndClip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40033839128561972F2B757FFD44AEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88F45A5D88F0BC8067B05FE3CB05A5C /* Pods-ImagePickAndClipTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickAndClipTests/Pods-ImagePickAndClipTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickAndClipTests/Pods-ImagePickAndClipTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91E99B9C40FC35FAB864E43F3B70D24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862E3A93EEC5F4A66A9EF760B0D59505 /* AddRemoteTest.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AddRemoteTest/AddRemoteTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AddRemoteTest/AddRemoteTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AddRemoteTest/AddRemoteTest.modulemap";
+				PRODUCT_MODULE_NAME = AddRemoteTest;
+				PRODUCT_NAME = AddRemoteTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0DD8194D3714AB21790E046542DFAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E085F69077975BA38815AF000C264A /* Pods-ImagePickAndClipUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickAndClipUITests/Pods-ImagePickAndClipUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickAndClipUITests/Pods-ImagePickAndClipUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A223C7400F5AD04C0ED5FFAEDCCA896C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862E3A93EEC5F4A66A9EF760B0D59505 /* AddRemoteTest.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AddRemoteTest/AddRemoteTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AddRemoteTest/AddRemoteTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AddRemoteTest/AddRemoteTest.modulemap";
+				PRODUCT_MODULE_NAME = AddRemoteTest;
+				PRODUCT_NAME = AddRemoteTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC1A73D9429AB04D95F6A04EF52A2ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7D4D749AFE711369725D661C7D7B53 /* Pods-ImagePickAndClipTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickAndClipTests/Pods-ImagePickAndClipTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickAndClipTests/Pods-ImagePickAndClipTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE64C0536A553A981C9A324429A63BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B42A350FCF2EF0F97C1C90DF7EE4A3F /* Pods-ImagePickAndClip.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickAndClip/Pods-ImagePickAndClip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickAndClip/Pods-ImagePickAndClip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E30E3BB34B705C10375873656026457D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01024EDDE44DB95BD5BCF45ED9F1C6F1 /* Build configuration list for PBXNativeTarget "AddRemoteTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A223C7400F5AD04C0ED5FFAEDCCA896C /* Debug */,
+				91E99B9C40FC35FAB864E43F3B70D24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30E3BB34B705C10375873656026457D /* Debug */,
+				00EC5F60B08274CA8F47AEDA1D342E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487B09F86C08FCE7B93F3B0B81F2C153 /* Build configuration list for PBXNativeTarget "Pods-ImagePickAndClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40033839128561972F2B757FFD44AEBC /* Debug */,
+				DC1A73D9429AB04D95F6A04EF52A2ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8ABDFB211FBA0130181F0039014573 /* Build configuration list for PBXNativeTarget "Pods-ImagePickAndClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CF86EF2153E68DB1E878CA7526CD20 /* Debug */,
+				DE64C0536A553A981C9A324429A63BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF29389EF8D56C8D00818444236E30C0 /* Build configuration list for PBXNativeTarget "Pods-ImagePickAndClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1573C94543E6FDBEBE438C4A5860A678 /* Debug */,
+				A0DD8194D3714AB21790E046542DFAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

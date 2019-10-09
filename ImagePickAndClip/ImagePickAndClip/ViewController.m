@@ -10,7 +10,8 @@
 #define ScreenH                             [UIScreen mainScreen].bounds.size.height
 
 #import "ViewController.h"
-#import "HTClipImageController.h"
+
+//#import "HTClipImageController.h"
 #import <Photos/Photos.h>
 #import <AVFoundation/AVFoundation.h>
 

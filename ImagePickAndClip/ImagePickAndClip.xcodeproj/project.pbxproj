@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C590C0B8041F7EB775579B /* Pods_ImagePickAndClipTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7046A0FD8EFB576C767A338 /* Pods_ImagePickAndClipTests.framework */; };
+		3E0F9506C593A17AC8E77DB7 /* Pods_ImagePickAndClipUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59EC86368D4BC27D229FDF6 /* Pods_ImagePickAndClipUITests.framework */; };
+		AF79577CBD36D5DF5F85DFF3 /* Pods_ImagePickAndClip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEBEA86BE1D3951362FB710 /* Pods_ImagePickAndClip.framework */; };
 		BBAD2A78219A76EC001054D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAD2A77219A76EC001054D7 /* AppDelegate.m */; };
 		BBAD2A7B219A76EC001054D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAD2A7A219A76EC001054D7 /* ViewController.m */; };
 		BBAD2A7E219A76EC001054D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAD2A7C219A76EC001054D7 /* Main.storyboard */; };
@@ -15,7 +18,6 @@
 		BBAD2A86219A76EE001054D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAD2A85219A76EE001054D7 /* main.m */; };
 		BBAD2A90219A76EE001054D7 /* ImagePickAndClipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAD2A8F219A76EE001054D7 /* ImagePickAndClipTests.m */; };
 		BBAD2A9B219A76EE001054D7 /* ImagePickAndClipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAD2A9A219A76EE001054D7 /* ImagePickAndClipUITests.m */; };
-		BBAD2AAA219A7A25001054D7 /* HTClipImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAD2AA8219A7A25001054D7 /* HTClipImageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F01AC5D835FEC24C3268948 /* Pods-ImagePickAndClipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickAndClipUITests.release.xcconfig"; path = "Target Support Files/Pods-ImagePickAndClipUITests/Pods-ImagePickAndClipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66D0E7272AC5FBEF49D1B1B2 /* Pods-ImagePickAndClipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickAndClipTests.debug.xcconfig"; path = "Target Support Files/Pods-ImagePickAndClipTests/Pods-ImagePickAndClipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7157ACD939FC4FC539956C8A /* Pods-ImagePickAndClipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickAndClipTests.release.xcconfig"; path = "Target Support Files/Pods-ImagePickAndClipTests/Pods-ImagePickAndClipTests.release.xcconfig"; sourceTree = "<group>"; };
+		7621E3E6A3683FBF80250A19 /* Pods-ImagePickAndClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickAndClip.debug.xcconfig"; path = "Target Support Files/Pods-ImagePickAndClip/Pods-ImagePickAndClip.debug.xcconfig"; sourceTree = "<group>"; };
+		A782AD6B507A5C052E444563 /* Pods-ImagePickAndClipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickAndClipUITests.debug.xcconfig"; path = "Target Support Files/Pods-ImagePickAndClipUITests/Pods-ImagePickAndClipUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBAD2A73219A76EC001054D7 /* ImagePickAndClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePickAndClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAD2A76219A76EC001054D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBAD2A77219A76EC001054D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +59,10 @@
 		BBAD2A96219A76EE001054D7 /* ImagePickAndClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickAndClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAD2A9A219A76EE001054D7 /* ImagePickAndClipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickAndClipUITests.m; sourceTree = "<group>"; };
 		BBAD2A9C219A76EE001054D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBAD2AA8219A7A25001054D7 /* HTClipImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTClipImageController.m; sourceTree = "<group>"; };
-		BBAD2AA9219A7A25001054D7 /* HTClipImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTClipImageController.h; sourceTree = "<group>"; };
+		C219FB90D2FF58AC1B9A9304 /* Pods-ImagePickAndClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickAndClip.release.xcconfig"; path = "Target Support Files/Pods-ImagePickAndClip/Pods-ImagePickAndClip.release.xcconfig"; sourceTree = "<group>"; };
+		D59EC86368D4BC27D229FDF6 /* Pods_ImagePickAndClipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagePickAndClipUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEBEA86BE1D3951362FB710 /* Pods_ImagePickAndClip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagePickAndClip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7046A0FD8EFB576C767A338 /* Pods_ImagePickAndClipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagePickAndClipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF79577CBD36D5DF5F85DFF3 /* Pods_ImagePickAndClip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C590C0B8041F7EB775579B /* Pods_ImagePickAndClipTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0F9506C593A17AC8E77DB7 /* Pods_ImagePickAndClipUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4275089052C72F4435F72A68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7621E3E6A3683FBF80250A19 /* Pods-ImagePickAndClip.debug.xcconfig */,
+				C219FB90D2FF58AC1B9A9304 /* Pods-ImagePickAndClip.release.xcconfig */,
+				66D0E7272AC5FBEF49D1B1B2 /* Pods-ImagePickAndClipTests.debug.xcconfig */,
+				7157ACD939FC4FC539956C8A /* Pods-ImagePickAndClipTests.release.xcconfig */,
+				A782AD6B507A5C052E444563 /* Pods-ImagePickAndClipUITests.debug.xcconfig */,
+				2F01AC5D835FEC24C3268948 /* Pods-ImagePickAndClipUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BBAD2A6A219A76EC001054D7 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +113,8 @@
 				BBAD2A8E219A76EE001054D7 /* ImagePickAndClipTests */,
 				BBAD2A99219A76EE001054D7 /* ImagePickAndClipUITests */,
 				BBAD2A74219A76EC001054D7 /* Products */,
+				4275089052C72F4435F72A68 /* Pods */,
+				D76E6381A7C6AB42681DD5E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,8 +135,6 @@
 				BBAD2A77219A76EC001054D7 /* AppDelegate.m */,
 				BBAD2A79219A76EC001054D7 /* ViewController.h */,
 				BBAD2A7A219A76EC001054D7 /* ViewController.m */,
-				BBAD2AA9219A7A25001054D7 /* HTClipImageController.h */,
-				BBAD2AA8219A7A25001054D7 /* HTClipImageController.m */,
 				BBAD2A7C219A76EC001054D7 /* Main.storyboard */,
 				BBAD2A7F219A76EE001054D7 /* Assets.xcassets */,
 				BBAD2A81219A76EE001054D7 /* LaunchScreen.storyboard */,
@@ -137,6 +162,16 @@
 			path = ImagePickAndClipUITests;
 			sourceTree = "<group>";
 		};
+		D76E6381A7C6AB42681DD5E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBEBEA86BE1D3951362FB710 /* Pods_ImagePickAndClip.framework */,
+				F7046A0FD8EFB576C767A338 /* Pods_ImagePickAndClipTests.framework */,
+				D59EC86368D4BC27D229FDF6 /* Pods_ImagePickAndClipUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBAD2A9F219A76EE001054D7 /* Build configuration list for PBXNativeTarget "ImagePickAndClip" */;
 			buildPhases = (
+				5976DCB4F6692F42242E2606 /* [CP] Check Pods Manifest.lock */,
 				BBAD2A6F219A76EC001054D7 /* Sources */,
 				BBAD2A70219A76EC001054D7 /* Frameworks */,
 				BBAD2A71219A76EC001054D7 /* Resources */,
+				AD3AA3542044A676751308EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBAD2AA2219A76EE001054D7 /* Build configuration list for PBXNativeTarget "ImagePickAndClipTests" */;
 			buildPhases = (
+				973226EA89BDAACC6C472886 /* [CP] Check Pods Manifest.lock */,
 				BBAD2A87219A76EE001054D7 /* Sources */,
 				BBAD2A88219A76EE001054D7 /* Frameworks */,
 				BBAD2A89219A76EE001054D7 /* Resources */,
@@ -179,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBAD2AA5219A76EE001054D7 /* Build configuration list for PBXNativeTarget "ImagePickAndClipUITests" */;
 			buildPhases = (
+				B1AD82F6663DB775D596D903 /* [CP] Check Pods Manifest.lock */,
 				BBAD2A92219A76EE001054D7 /* Sources */,
 				BBAD2A93219A76EE001054D7 /* Frameworks */,
 				BBAD2A94219A76EE001054D7 /* Resources */,
@@ -262,13 +301,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5976DCB4F6692F42242E2606 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagePickAndClip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		973226EA89BDAACC6C472886 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagePickAndClipTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3AA3542044A676751308EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImagePickAndClip/Pods-ImagePickAndClip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImagePickAndClip/Pods-ImagePickAndClip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImagePickAndClip/Pods-ImagePickAndClip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AD82F6663DB775D596D903 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagePickAndClipUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBAD2A6F219A76EC001054D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BBAD2A7B219A76EC001054D7 /* ViewController.m in Sources */,
-				BBAD2AAA219A7A25001054D7 /* HTClipImageController.m in Sources */,
 				BBAD2A86219A76EE001054D7 /* main.m in Sources */,
 				BBAD2A78219A76EC001054D7 /* AppDelegate.m in Sources */,
 			);
@@ -437,11 +561,12 @@
 		};
 		BBAD2AA0219A76EE001054D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7621E3E6A3683FBF80250A19 /* Pods-ImagePickAndClip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImagePickAndClip/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +579,12 @@
 		};
 		BBAD2AA1219A76EE001054D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C219FB90D2FF58AC1B9A9304 /* Pods-ImagePickAndClip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImagePickAndClip/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +597,7 @@
 		};
 		BBAD2AA3219A76EE001054D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D0E7272AC5FBEF49D1B1B2 /* Pods-ImagePickAndClipTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -489,6 +616,7 @@
 		};
 		BBAD2AA4219A76EE001054D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7157ACD939FC4FC539956C8A /* Pods-ImagePickAndClipTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +635,7 @@
 		};
 		BBAD2AA6219A76EE001054D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A782AD6B507A5C052E444563 /* Pods-ImagePickAndClipUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImagePickAndClipUITests/Info.plist;
@@ -524,6 +653,7 @@
 		};
 		BBAD2AA7219A76EE001054D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F01AC5D835FEC24C3268948 /* Pods-ImagePickAndClipUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImagePickAndClipUITests/Info.plist;

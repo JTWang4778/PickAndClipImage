@@ -1,0 +1,6 @@
+framework module AddRemoteTest {
+  umbrella header "AddRemoteTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

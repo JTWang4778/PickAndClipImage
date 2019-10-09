@@ -1,0 +1,16 @@
+PODS:
+  - AddRemoteTest (0.0.5)
+
+DEPENDENCIES:
+  - AddRemoteTest (~> 0.0.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AddRemoteTest
+
+SPEC CHECKSUMS:
+  AddRemoteTest: 333be071e1bb5ca697339a820a901a399311c0c6
+
+PODFILE CHECKSUM: 661e7160fa95ad3dcc9466dd51e196320a861a62
+
+COCOAPODS: 1.7.2
